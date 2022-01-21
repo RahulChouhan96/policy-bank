@@ -1,0 +1,23 @@
+{
+  "name": "policy-bank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever start server.js"
+  },
+  "keywords": [],
+  "author": "samshubbu",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.19.1",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.2",
+    "forever": "^4.0.2",
+    "mongoose": "^6.1.6",
+    "multer": "^1.4.4",
+    "node-schedule": "^2.1.0",
+    "pm2": "^5.1.2"
+  }
+}
